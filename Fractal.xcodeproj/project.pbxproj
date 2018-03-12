@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07B3A0CD205700CC0064B1EB /* FractalCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B3A0CC205700CC0064B1EB /* FractalCanvas.swift */; };
 		07C136972056FB4500E7461A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C136962056FB4500E7461A /* AppDelegate.swift */; };
 		07C136992056FB4500E7461A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C136982056FB4500E7461A /* ViewController.swift */; };
 		07C1369C2056FB4500E7461A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C1369A2056FB4500E7461A /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07B3A0CC205700CC0064B1EB /* FractalCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractalCanvas.swift; sourceTree = "<group>"; };
 		07C136932056FB4500E7461A /* Fractal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fractal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C136962056FB4500E7461A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07C136982056FB4500E7461A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				07C136962056FB4500E7461A /* AppDelegate.swift */,
+				07B3A0CC205700CC0064B1EB /* FractalCanvas.swift */,
 				07C136982056FB4500E7461A /* ViewController.swift */,
 				07C1369A2056FB4500E7461A /* Main.storyboard */,
 				07C1369D2056FB4500E7461A /* Assets.xcassets */,
@@ -199,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07B3A0CD205700CC0064B1EB /* FractalCanvas.swift in Sources */,
 				07C136992056FB4500E7461A /* ViewController.swift in Sources */,
 				07C136972056FB4500E7461A /* AppDelegate.swift in Sources */,
 			);
