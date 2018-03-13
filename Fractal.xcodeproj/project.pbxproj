@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		07B3A0CD205700CC0064B1EB /* FractalCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B3A0CC205700CC0064B1EB /* FractalCanvas.swift */; };
+		07B3A0D020574EDF0064B1EB /* Section01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B3A0CF20574EDF0064B1EB /* Section01Tests.swift */; };
 		07C136972056FB4500E7461A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C136962056FB4500E7461A /* AppDelegate.swift */; };
 		07C136992056FB4500E7461A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C136982056FB4500E7461A /* ViewController.swift */; };
 		07C1369C2056FB4500E7461A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C1369A2056FB4500E7461A /* Main.storyboard */; };
 		07C1369E2056FB4500E7461A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C1369D2056FB4500E7461A /* Assets.xcassets */; };
 		07C136A12056FB4500E7461A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C1369F2056FB4500E7461A /* LaunchScreen.storyboard */; };
-		07C136AC2056FB4500E7461A /* FractalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C136AB2056FB4500E7461A /* FractalTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		07B3A0CC205700CC0064B1EB /* FractalCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractalCanvas.swift; sourceTree = "<group>"; };
+		07B3A0CF20574EDF0064B1EB /* Section01Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section01Tests.swift; sourceTree = "<group>"; };
 		07C136932056FB4500E7461A /* Fractal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fractal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C136962056FB4500E7461A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07C136982056FB4500E7461A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,7 +37,6 @@
 		07C136A02056FB4500E7461A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07C136A22056FB4500E7461A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07C136A72056FB4500E7461A /* FractalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FractalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		07C136AB2056FB4500E7461A /* FractalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractalTests.swift; sourceTree = "<group>"; };
 		07C136AD2056FB4500E7461A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,6 +58,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07B3A0CE20574E940064B1EB /* ElementaryNumberTheory */ = {
+			isa = PBXGroup;
+			children = (
+				07B3A0CF20574EDF0064B1EB /* Section01Tests.swift */,
+			);
+			path = ElementaryNumberTheory;
+			sourceTree = "<group>";
+		};
 		07C1368A2056FB4500E7461A = {
 			isa = PBXGroup;
 			children = (
@@ -93,7 +101,7 @@
 		07C136AA2056FB4500E7461A /* FractalTests */ = {
 			isa = PBXGroup;
 			children = (
-				07C136AB2056FB4500E7461A /* FractalTests.swift */,
+				07B3A0CE20574E940064B1EB /* ElementaryNumberTheory */,
 				07C136AD2056FB4500E7461A /* Info.plist */,
 			);
 			path = FractalTests;
@@ -212,7 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07C136AC2056FB4500E7461A /* FractalTests.swift in Sources */,
+				07B3A0D020574EDF0064B1EB /* Section01Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
