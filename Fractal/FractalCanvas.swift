@@ -9,9 +9,11 @@
 import UIKit
 
 class FractalCanvas: UIView {
+    
+    var fractalOrder = 0
 
     override func draw(_ rect: CGRect) {
-        boxyFractal(x: rect.width/2, y: rect.height/2, size: 128, order: 2)
+        boxyFractal(x: rect.width/2, y: rect.height/2, size: 128, order: fractalOrder)
     }
 
     private func boxyFractal(x: CGFloat, y: CGFloat, size: CGFloat, order: Int) {

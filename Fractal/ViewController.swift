@@ -10,16 +10,27 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var fractalCanvasView: FractalCanvas!
+    @IBOutlet weak var orderLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func minusButtonTapped(_ sender: UIButton) {
+        if fractalCanvasView.fractalOrder > 0 {
+            fractalCanvasView.fractalOrder -= 1
+            orderLabel.text = "Order: \(fractalCanvasView.fractalOrder)"
+            fractalCanvasView.setNeedsDisplay()
+        }
     }
-
-
+    
+    @IBAction func plusButtonTapped(_ sender: UIButton) {
+        if fractalCanvasView.fractalOrder < 9 {
+            fractalCanvasView.fractalOrder += 1
+            orderLabel.text = "Order: \(fractalCanvasView.fractalOrder)"
+            fractalCanvasView.setNeedsDisplay()
+        }
+    }
 }
 
